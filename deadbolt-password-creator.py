@@ -25,7 +25,7 @@ current_directory = os.getcwd()
 if not os.path.isdir(f"{current_directory}/DeadBolt/"):
     os.mkdir(f"{current_directory}/DeadBolt/")
     file = open(rf"{current_directory}/DeadBolt/Secret.txt", 'w')
-    file.write(f'Accout\tUser\tPasswd')
+    file.write(f'Account\tUser\tPassword')
     file.close()
     print(f'Created: {current_directory}/DeadBolt/Secret.txt')
 
